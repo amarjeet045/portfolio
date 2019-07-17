@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import Main from './components/Main';
+import {Link} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom'
+import HeaderNavigation from './components/HeaderNavigation';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <>
+      <HeaderNavigation />
+      </>
+
+    );
+  }
 }
-
 export default App;
