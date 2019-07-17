@@ -12,13 +12,13 @@ class Landing extends Component {
           <Cell col={12}>
             <img
               src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/53839982_1841172325989295_712139941710135296_n.jpg?_nc_cat=107&_nc_oc=AQnTSxS2VU82EiRy9lwba7h7M86psEpxFwjHTJjVIA7ugp9ux-bNzJI1jGXILk728nj3DI1pNsc4AqoR5nTMO6ds&_nc_ht=scontent.fdel3-1.fna&oh=60c786c96b8f82633971ef63fa664cab&oe=5DBF475C"
-              class="photo img-responsive img-circle " id ="image"
+              className="photo img-responsive img-circle " id ="image"
             />
             <div className="banner-text">
               
               <h1>Front End Developer</h1>
               <hr />
-              <p>Hello</p>
+              <p style={{color:'white',fontSize:'20px'}}>HTML/CSS | Javascript| Bootstrap|Jquery |React</p>
               {/*
               <span style={{margin:'auto'}}>
               <SocialIcon url="https://www.linkedin.com/feed/" style={{ height: 60, width: 60 }} className="social"/> &nbsp; &nbsp; &nbsp;

@@ -34,8 +34,7 @@ class Projects extends Component {
               React Project #1
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+             
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
@@ -57,8 +56,7 @@ class Projects extends Component {
               React Project #1
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+             
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
@@ -68,7 +66,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          <Card shadow={5} style={{ width: "400", margin: "auto" }}>
+          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -80,8 +78,7 @@ class Projects extends Component {
               React Project #1
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+             
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
@@ -115,6 +112,7 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
+          <Tab>ALL</Tab>
           <Tab>HTML/CSS</Tab>
           <Tab>HTML/CSS/JS</Tab>
           <Tab>React</Tab>

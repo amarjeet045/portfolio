@@ -12,7 +12,7 @@ class HeaderNavigation extends Component {
         <div className="demo-big-content">
        
         <Layout>
-          <Header  className ="header" title="" scroll>
+          <Header  className ="header" title="MyPortfolio" scroll>
             <Navigation>
               <a href  ="/resume">Resume</a>
               <a href ="/about">About Me</a>
@@ -20,7 +20,7 @@ class HeaderNavigation extends Component {
               <a href ="/contact">Contact Me</a>
             </Navigation>
           </Header>
-          <Drawer title="">
+          <Drawer title="MyPortfolio">
             <Navigation>
               <a href ="/resume">Resume</a>
               <a href ="/about">About Me</a>
