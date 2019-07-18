@@ -18,7 +18,7 @@ class Contact extends Component {
             <p className="content">
               I am Amarjeet Singh and currently i am pursuing my b.tech from
               JAypee University Of Engineering & Technology and i have good
-              knowledge of front end{" "}
+              knowledge of front end development.
             </p>
           </Cell>
           <Cell col={6}>
