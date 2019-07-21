@@ -1,6 +1,5 @@
 .Education{
     position:absolute;
-    text-align: center;
     top:0;
    
     background: black;
@@ -23,4 +22,5 @@
     text-align: center;
     font-family: 'Anton';
     color: azure;
+    
 }

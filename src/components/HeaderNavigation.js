@@ -12,7 +12,7 @@ class HeaderNavigation extends Component {
         <div className="demo-big-content">
        
         <Layout>
-          <Header  className ="header" title="MyPortfolio" scroll>
+          <Header  className ="header" title={<a href = "/" style = {{textDecoration:'none',color:'white'} }>MyPortfolio</a>}scroll>
             <Navigation>
               <a href  ="/resume">Resume</a>
               <a href ="/about">About Me</a>
@@ -20,7 +20,7 @@ class HeaderNavigation extends Component {
               <a href ="/contact">Contact Me</a>
             </Navigation>
           </Header>
-          <Drawer title="MyPortfolio">
+          <Drawer title={<a href = "/" style = {{textDecoration:'none',color:'black'} }>MyPortfolio</a>}>
             <Navigation>
               <a href ="/resume">Resume</a>
               <a href ="/about">About Me</a>
